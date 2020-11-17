@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<HCM-CALC Facility="Weaving Segment">
+  <PROJECT>
+    <AnalysisModule>FreewayWeavingSegment</AnalysisModule>
+    <AnalysisMode>HCM2010</AnalysisMode>
+    <ModuleVersionDate>10/30/2016</ModuleVersionDate>
+    <FileName>WeaveExample2.xfw</FileName>
+    <Analyst />
+    <Date>8/22/2017 7:29:14 PM</Date>
+    <Agency />
+    <Comment />
+    <FacilityName />
+    <FacilityStart />
+    <FacilityEnd />
+    <AnalysisDirection />
+    <Location />
+    <To />
+    <From />
+    <AnalysisPeriod>PM Peak</AnalysisPeriod>
+  </PROJECT>
+  <Mainline>
+    <NumberOfLanes_Thru>4</NumberOfLanes_Thru>
+    <Dfactor>0.5</Dfactor>
+    <Kfactor>0.1</Kfactor>
+    <EnteringDemandVeh>4300</EnteringDemandVeh>
+    <AdjustedDemand>5000</AdjustedDemand>
+    <DemandVeh>5000</DemandVeh>
+    <PeakHourFactor>1.000</PeakHourFactor>
+    <DriverPopulationFactor>1.000</DriverPopulationFactor>
+    <InterchangeDensity>1.00</InterchangeDensity>
+    <Terrain>Level</Terrain>
+    <PctGrade>N/A</PctGrade>
+    <SegLength>N/A</SegLength>
+    <PctTrucks>0.0</PctTrucks>
+    <PctRVs>0.0</PctRVs>
+    <TruckPCE>1.50</TruckPCE>
+    <RvPCE>1.20</RvPCE>
+    <HeavyVehicleFactor>1.000</HeavyVehicleFactor>
+    <FreeFlowSpeedMethod>Estimated</FreeFlowSpeedMethod>
+    <FFS_Estimation_Parameters>
+      <LaneWidth>12</LaneWidth>
+      <LateralClearance>6</LateralClearance>
+      <RampDensityEntryMethod>Direct</RampDensityEntryMethod>
+      <NumRampsUpstream>0</NumRampsUpstream>
+      <NumRampsDownstream>0</NumRampsDownstream>
+      <RampDensity>0.000</RampDensity>
+      <LaneWidthAdjValue>0.0</LaneWidthAdjValue>
+      <LateralClearanceAdjValue>0.0</LateralClearanceAdjValue>
+      <RampDensityAdjValue>0.00</RampDensityAdjValue>
+      <FreeFlowSpeedBase>75.4</FreeFlowSpeedBase>
+      <FreeFlowSpeedEstCalc>75.4</FreeFlowSpeedEstCalc>
+      <FreeFlowSpeedEstRounded>75</FreeFlowSpeedEstRounded>
+    </FFS_Estimation_Parameters>
+    <FreeFlowSpeed>75.0</FreeFlowSpeed>
+    <PostedSpeed>0</PostedSpeed>
+  </Mainline>
+  <WeavingConfiguration>
+    <SegmentType>Freeway</SegmentType>
+    <WeavingType>OneSide</WeavingType>
+    <ShortLength>1000</ShortLength>
+    <NumWeaveLanes>2</NumWeaveLanes>
+    <MinLaneChangesRampFwy>1</MinLaneChangesRampFwy>
+    <MinLaneChangesFwyRamp>1</MinLaneChangesFwyRamp>
+    <MinLaneChangesRampRamp>0</MinLaneChangesRampRamp>
+    <RampToRampAdjDemand>100</RampToRampAdjDemand>
+  </WeavingConfiguration>
+  <OnRamp>
+    <AdjustedDemand>700</AdjustedDemand>
+    <DemandVeh>700</DemandVeh>
+    <PctTrucks>0.0</PctTrucks>
+    <PctRVs>0.0</PctRVs>
+    <HeavyVehicleFactor>1.000</HeavyVehicleFactor>
+  </OnRamp>
+  <OffRamp>
+    <AdjustedDemand>400</AdjustedDemand>
+    <DemandVeh>400</DemandVeh>
+    <PctTrucks>0.0</PctTrucks>
+    <PctRVs>0.0</PctRVs>
+    <HeavyVehicleFactor>1.000</HeavyVehicleFactor>
+  </OffRamp>
+  <Results>
+    <FreewayToFreewayFlowRate>4000</FreewayToFreewayFlowRate>
+    <FreewayToRampFlowRate>300</FreewayToRampFlowRate>
+    <RampToFreewayFlowRate>600</RampToFreewayFlowRate>
+    <RampToRampFlowRate>100</RampToRampFlowRate>
+    <WeaveVolumeRatio>0.180</WeaveVolumeRatio>
+    <MaxWeaveLength>4333</MaxWeaveLength>
+    <WeaveCapacityIdealPerLane>2145</WeaveCapacityIdealPerLane>
+    <WeaveCapacityIdealAllLanes>13333</WeaveCapacityIdealAllLanes>
+    <WeaveCapacityPrevailingAllLanes>8580</WeaveCapacityPrevailingAllLanes>
+    <VolumeCapacityRatio>0.583</VolumeCapacityRatio>
+    <MinLaneChanges>900</MinLaneChanges>
+    <LaneChangingRateWeaving>1187</LaneChangingRateWeaving>
+    <NonWeavingIndex>410</NonWeavingIndex>
+    <LaneChangingRateNonWeaving>616</LaneChangingRateNonWeaving>
+    <LaneChangingRateAll>1804</LaneChangingRateAll>
+    <WeavingIntensity>0.360</WeavingIntensity>
+    <NonWeavingSpeed>62.5</NonWeavingSpeed>
+    <WeavingSpeed>59.1</WeavingSpeed>
+    <AvgTravelSpeed>61.9</AvgTravelSpeed>
+    <DensityPC>20.2</DensityPC>
+    <LOS>C</LOS>
+  </Results>
+  <LOSTABLES Mode="Auto">
+    <CROSSSECTION Lanes="2">
+      <SERVICEVOL LOS="1">
+        <PeakDirection>--</PeakDirection>
+        <BothDirections>--</BothDirections>
+        <AADT>--</AADT>
+      </SERVICEVOL>
+      <SERVICEVOL LOS="2">
+        <PeakDirection>80</PeakDirection>
+        <BothDirections>160</BothDirections>
+        <AADT>300</AADT>
+      </SERVICEVOL>
+      <SERVICEVOL LOS="3">
+        <PeakDirection>460</PeakDirection>
+        <BothDirections>920</BothDirections>
+        <AADT>1800</AADT>
+      </SERVICEVOL>
+      <SERVICEVOL LOS="4">
+        <PeakDirection>980</PeakDirection>
+        <BothDirections>1960</BothDirections>
+        <AADT>3900</AADT>
+      </SERVICEVOL>
+      <SERVICEVOL LOS="5">
+        <PeakDirection>1620</PeakDirection>
+        <BothDirections>3240</BothDirections>
+        <AADT>6500</AADT>
+      </SERVICEVOL>
+    </CROSSSECTION>
+    <CROSSSECTION Lanes="4">
+      <SERVICEVOL LOS="1">
+        <PeakDirection>1190</PeakDirection>
+        <BothDirections>2390</BothDirections>
+        <AADT>23900</AADT>
+      </SERVICEVOL>
+      <SERVICEVOL LOS="2">
+        <PeakDirection>2230</PeakDirection>
+        <BothDirections>4480</BothDirections>
+        <AADT>44800</AADT>
+      </SERVICEVOL>
+      <SERVICEVOL LOS="3">
+        <PeakDirection>2980</PeakDirection>
+        <BothDirections>5980</BothDirections>
+        <AADT>59800</AADT>
+      </SERVICEVOL>
+      <SERVICEVOL LOS="4">
+        <PeakDirection>3590</PeakDirection>
+        <BothDirections>7180</BothDirections>
+        <AADT>71800</AADT>
+      </SERVICEVOL>
+      <SERVICEVOL LOS="5">
+        <PeakDirection>3720</PeakDirection>
+        <BothDirections>7450</BothDirections>
+        <AADT>74500</AADT>
+      </SERVICEVOL>
+    </CROSSSECTION>
+    <CROSSSECTION Lanes="6">
+      <SERVICEVOL LOS="1">
+        <PeakDirection>1760</PeakDirection>
+        <BothDirections>3530</BothDirections>
+        <AADT>35300</AADT>
+      </SERVICEVOL>
+      <SERVICEVOL LOS="2">
+        <PeakDirection>3270</PeakDirection>
+        <BothDirections>6550</BothDirections>
+        <AADT>65500</AADT>
+      </SERVICEVOL>
+      <SERVICEVOL LOS="3">
+        <PeakDirection>4340</PeakDirection>
+        <BothDirections>8680</BothDirections>
+        <AADT>86800</AADT>
+      </SERVICEVOL>
+      <SERVICEVOL LOS="4">
+        <PeakDirection>5180</PeakDirection>
+        <BothDirections>10380</BothDirections>
+        <AADT>103800</AADT>
+      </SERVICEVOL>
+      <SERVICEVOL LOS="5">
+        <PeakDirection>5530</PeakDirection>
+        <BothDirections>11070</BothDirections>
+        <AADT>110700</AADT>
+      </SERVICEVOL>
+    </CROSSSECTION>
+    <CROSSSECTION Lanes="8">
+      <SERVICEVOL LOS="1">
+        <PeakDirection>2320</PeakDirection>
+        <BothDirections>4640</BothDirections>
+        <AADT>46400</AADT>
+      </SERVICEVOL>
+      <SERVICEVOL LOS="2">
+        <PeakDirection>4260</PeakDirection>
+        <BothDirections>8530</BothDirections>
+        <AADT>85300</AADT>
+      </SERVICEVOL>
+      <SERVICEVOL LOS="3">
+        <PeakDirection>5610</PeakDirection>
+        <BothDirections>11240</BothDirections>
+        <AADT>112400</AADT>
+      </SERVICEVOL>
+      <SERVICEVOL LOS="4">
+        <PeakDirection>6680</PeakDirection>
+        <BothDirections>13360</BothDirections>
+        <AADT>133600</AADT>
+      </SERVICEVOL>
+      <SERVICEVOL LOS="5">
+        <PeakDirection>7400</PeakDirection>
+        <BothDirections>14810</BothDirections>
+        <AADT>148100</AADT>
+      </SERVICEVOL>
+    </CROSSSECTION>
+    <CROSSSECTION Lanes="10">
+      <SERVICEVOL LOS="1">
+        <PeakDirection>2860</PeakDirection>
+        <BothDirections>5720</BothDirections>
+        <AADT>57200</AADT>
+      </SERVICEVOL>
+      <SERVICEVOL LOS="2">
+        <PeakDirection>5210</PeakDirection>
+        <BothDirections>10430</BothDirections>
+        <AADT>104300</AADT>
+      </SERVICEVOL>
+      <SERVICEVOL LOS="3">
+        <PeakDirection>6820</PeakDirection>
+        <BothDirections>13650</BothDirections>
+        <AADT>136500</AADT>
+      </SERVICEVOL>
+      <SERVICEVOL LOS="4">
+        <PeakDirection>8070</PeakDirection>
+        <BothDirections>16150</BothDirections>
+        <AADT>161500</AADT>
+      </SERVICEVOL>
+      <SERVICEVOL LOS="5">
+        <PeakDirection>9220</PeakDirection>
+        <BothDirections>18450</BothDirections>
+        <AADT>184500</AADT>
+      </SERVICEVOL>
+    </CROSSSECTION>
+  </LOSTABLES>
+</HCM-CALC>

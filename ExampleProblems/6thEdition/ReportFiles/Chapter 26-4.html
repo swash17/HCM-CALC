@@ -1,0 +1,667 @@
+﻿<HTML>
+<title>Chapter 26, LOS on a Five-Lane Highway with a Two-Way Left Turn Lane, Example 4</title>
+  <BODY STYLE="font:10pt Verdana">
+    <p>
+      <TABLE BORDER="0" WIDTH="100%">
+        <tr>
+          <th width="100%">
+            <p align="center"><b><font size="5" color="0000FF">SwashWare</font></b><br><b><font size="5" color="6600CC">HCM-CALC</font></b></p>
+          </th>
+        </tr>
+      </TABLE>
+    </p>
+    <table border="0" width="100%">
+      <tr>
+        <th width="100%" colspan="8" bgcolor="white">
+          <p align="center"><b>Project Properties</b></p>
+        </th>
+      </tr>
+    </table>
+    <table border="1" width="100%">
+      <tr>
+        <td width="10%" bgcolor="#C0C0C0"><b><font size="1">Analyst</font></b></td>
+        <td width="15%" align="left">
+          <font size="1">
+          </font>
+        </td>
+        <td width="12%" bgcolor="#C0C0C0"><b><font size="1">Roadway Name</font></b></td>
+        <td width="20%" align="left">
+          <font size="1">
+          </font>
+        </td>
+        <td width="12%" bgcolor="#C0C0C0"><b><font size="1">Analysis Period</font></b></td>
+        <td width="31%" align="left">
+          <font size="1">PM Peak</font>
+        </td>
+      </tr>
+      <tr>
+        <td width="10%" bgcolor="#C0C0C0"><b><font size="1">Analysis Date</font></b></td>
+        <td width="15%" align="left">
+          <font size="1">8/22/2017 7:27:12 PM</font>
+        </td>
+        <td width="12%" bgcolor="#C0C0C0"><b><font size="1">From</font></b></td>
+        <td width="20%" align="left">
+          <font size="1">
+          </font>
+        </td>
+        <td width="12%" bgcolor="#C0C0C0"><b><font size="1">Analysis Module</font></b></td>
+        <td width="31%" align="left">
+          <font size="1">Multilane Highway Segment</font>
+        </td>
+      </tr>
+      <tr>
+        <td width="10%" align="left" bgcolor="#C0C0C0"><b><font size="1">Agency</font></b></td>
+        <td width="15%" align="left">
+          <font size="1">
+          </font>
+        </td>
+        <td width="12%" bgcolor="#C0C0C0"><b><font size="1">To</font></b></td>
+        <td width="20%" align="left">
+          <font size="1">
+          </font>
+        </td>
+        <td width="12%" align="left" bgcolor="#C0C0C0"><b><font size="1">Module Version Date</font></b></td>
+        <td width="31%" align="left">
+          <font size="1">2/24/2016</font>
+        </td>
+      </tr>
+      <tr>
+        <td width="10%" bgcolor="#C0C0C0"><b><font size="1">Location</font></b></td>
+        <td width="15%" align="left">
+          <font size="1">
+          </font>
+        </td>
+        <td width="12%" bgcolor="#C0C0C0"><b><font size="1">Analysis Direction</font></b></td>
+        <td width="20%" align="left">
+          <font size="1">
+          </font>
+        </td>
+        <td width="10%" align="left" bgcolor="#C0C0C0"><b><font size="1">HCM Edition</font></b></td>
+        <td width="20%" align="left">
+          <font size="1">HCM2016</font>
+        </td>
+      </tr>
+    </table>
+    <table border="1" width="100%">
+      <tr>
+        <td width="15%" bgcolor="#C0C0C0"><b><font size="1">User Notes</font></b></td>
+        <td width="85%" align="left">
+          <font size="1">
+          </font>
+        </td>
+      </tr>
+      <tr>
+        <td width="15%" align="left" bgcolor="#C0C0C0"><b><font size="1">File Name</font></b></td>
+        <td width="85%" align="left">
+          <font size="1">Chapter 26-4.xhm</font>
+        </td>
+      </tr>
+    </table>
+    <p></p>
+    <TABLE BORDER="0" WIDTH="100%">
+      <tr>
+        <th width="100%">
+          <p align="center"><b>Input Values and Intermediate Calculation Results</b></p>
+        </th>
+      </tr>
+      <tr>
+        <td align="center" width="100%"><B><font size="2">Mainline Data</font></B></td>
+      </tr>
+    </TABLE>
+    <TABLE BORDER="1" WIDTH="100%">
+      <TR>
+        <TD align="center" width="100%" COLSPAN="5" bgcolor="#00FF00"><B><font size="1.5"></font></B></TD>
+      </TR>
+      <TR>
+        <TD align="center" width="20%" bgcolor="#C0C0C0"><B><font size="1.5"># Lanes</font></B></TD>
+        <TD align="center" width="20%" bgcolor="#C0C0C0"><B><font size="1.5">Demand (veh/h)</font></B></TD>
+        <TD align="center" width="20%" bgcolor="#C0C0C0"><B><font size="1.5">Peak Hour Factor</font></B></TD>
+        <TD align="center" width="20%" bgcolor="#C0C0C0"><B><font size="1.5">FFS Adj. Factor</font></B></TD>
+        <TD align="center" width="20%" bgcolor="#C0C0C0"><B><font size="1.5">Capacity Adj. Factor</font></B></TD>
+      </TR>
+      <TR height="100%">
+        <TD align="center">
+          <font size="1">3</font>
+        </TD>
+        <TD align="center">
+          <font size="1">1500</font>
+        </TD>
+        <TD align="center">
+          <font size="1">0.900</font>
+        </TD>
+        <TD align="center">
+          <font size="1">1.00</font>
+        </TD>
+        <TD align="center">
+          <font size="1">1.00</font>
+        </TD>
+      </TR>
+    </TABLE>
+    <p></p>
+    <TABLE BORDER="1" WIDTH="100%">
+      <TR>
+        <TD align="center" width="100%" COLSPAN="7" bgcolor="#3333FF"><B><font size="1.5" color="FFFFFF">Heavy Vehicle Factor Values</font></B></TD>
+      </TR>
+      <TR>
+        <TD align="center" width="14%" bgcolor="#C0C0C0"><B><font size="1.5">Terrain</font></B></TD>
+        <TD align="center" width="14%" bgcolor="#C0C0C0"><B><font size="1.5">% Grade</font></B></TD>
+        <TD align="center" width="14%" bgcolor="#C0C0C0"><B><font size="1.5">Length (mi)</font></B></TD>
+        <TD align="center" width="14%" bgcolor="#C0C0C0"><B><font size="1.5">% TTs</font></B></TD>
+        <TD align="center" width="14%" bgcolor="#C0C0C0"><B><font size="1.5">% SUTs</font></B></TD>
+        <TD align="center" width="14%" bgcolor="#C0C0C0"><B><font size="1.5">Truck PCE</font></B></TD>
+        <TD align="center" width="16%" bgcolor="#C0C0C0"><B><font size="1.5">Heavy Vehicle Factor</font></B></TD>
+      </TR>
+      <TR>
+        <TD align="center">
+          <font size="1">Specific Grade</font>
+        </TD>
+        <TD align="center">
+          <font size="1">3.50</font>
+        </TD>
+        <TD align="center">
+          <font size="1">20.0000</font>
+        </TD>
+        <TD align="center">
+          <font size="1">6.0</font>
+        </TD>
+        <TD align="center">
+          <font size="1">0.0</font>
+        </TD>
+        <TD align="center">
+          <font size="1">4.01</font>
+        </TD>
+        <TD align="center">
+          <font size="1">0.847</font>
+        </TD>
+      </TR>
+    </TABLE>
+    <p></p>
+    <TABLE BORDER="1" WIDTH="100%">
+      <TR>
+        <TD align="center" width="100%" COLSPAN="5" bgcolor="#BE1CFA"><B><font size="1.5" color="FFFFFF">Free Flow Speed Values</font></B></TD>
+      </TR>
+      <TR>
+        <TD align="left" width="15%" bgcolor="#C0C0C0"><B><font size="1.5">FFS Method</font></B></TD>
+        <TD align="center" COLSPAN="4">
+          <font size="1">Estimated</font>
+        </TD>
+      </TR>
+      <TR>
+        <TD align="left" width="20%" bgcolor="#C0C0C0"><B><font size="1.5">Input Values</font></B></TD>
+        <TD align="center" width="15%" bgcolor="#C0C0C0"><B><font size="1.5">Lane Width (ft)</font></B></TD>
+        <TD align="center" width="15%" bgcolor="#C0C0C0"><B><font size="1.5">Total Lateral Clearance (ft)</font></B></TD>
+        <TD align="center" width="15%" bgcolor="#C0C0C0"><B><font size="1.5">Median Type</font></B></TD>
+        <TD align="center" width="15%" bgcolor="#C0C0C0"><B><font size="1.5">Access Point Density (access pts/mi)</font></B></TD>
+      </TR>
+      <TR>
+        <TD align="center" width="20%">
+          <font size="1"></font>
+        </TD>
+        <TD align="center">
+          <font size="1">12</font>
+        </TD>
+        <TD align="center">
+          <font size="1">12</font>
+        </TD>
+        <TD align="center">
+          <font size="1">TWLTL</font>
+        </TD>
+        <TD align="center">
+          <font size="1">10</font>
+        </TD>
+      </TR>
+      <TR>
+        <TD align="left" width="20%" bgcolor="#C0C0C0"><B><font size="1.5">Adjustment Values</font></B></TD>
+        <TD align="center" width="15%" bgcolor="#C0C0C0"><B><font size="1.5">Lane Width (mi/h)</font></B></TD>
+        <TD align="center" width="15%" bgcolor="#C0C0C0"><B><font size="1.5">Total Lat. Clearance (mi/h)</font></B></TD>
+        <TD align="center" width="15%" bgcolor="#C0C0C0"><B><font size="1.5">Median Type (mi/h)</font></B></TD>
+        <TD align="center" width="15%" bgcolor="#C0C0C0"><B><font size="1.5">Access Point Density (mi/h)</font></B></TD>
+      </TR>
+      <TR>
+        <TD align="center" width="20%">
+          <font size="1"></font>
+        </TD>
+        <TD align="center">
+          <font size="1">0.0</font>
+        </TD>
+        <TD align="center">
+          <font size="1">0.0</font>
+        </TD>
+        <TD align="center">
+          <font size="1">0.0</font>
+        </TD>
+        <TD align="center">
+          <font size="1">2.5</font>
+        </TD>
+      </TR>
+      <TR>
+        <TD align="left" width="20%" bgcolor="#C0C0C0"><B><font size="1.5">FFS, Base (mi/h)</font></B></TD>
+        <TD align="center" COLSPAN="4">
+          <font size="1">60.0</font>
+        </TD>
+      </TR>
+      <TR>
+        <TD align="left" width="20%" bgcolor="#C0C0C0"><B><font size="1.5">FFS, Calculated (mi/h)</font></B></TD>
+        <TD align="center" COLSPAN="4">
+          <font size="1">57.5</font>
+        </TD>
+      </TR>
+    </TABLE>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <TABLE BORDER="0" WIDTH="100%">
+      <tr>
+        <th width="100%">
+          <p align="center"><b>Performance Measures and LOS</b></p>
+        </th>
+      </tr>
+    </TABLE>
+    <TABLE BORDER="1" WIDTH="100%">
+      <TR>
+        <TD align="center" width="8%" bgcolor="#C0C0C0"><B><font size="1.5">Analysis Flow Rate (pc/h/ln)</font></B></TD>
+        <TD align="center" width="8%" bgcolor="#C0C0C0"><B><font size="1.5">Avg. Speed (mi/h)</font></B></TD>
+        <TD align="center" width="8%" bgcolor="#C0C0C0"><B><font size="1.5">Density (pc/mi/ln)</font></B></TD>
+        <TD align="center" width="10%" bgcolor="#C0C0C0"><B><font size="1.5">Adjusted Capacity (pc/h/ln)</font></B></TD>
+        <TD align="center" width="10%" bgcolor="#C0C0C0"><B><font size="1.5">v/c ratio</font></B></TD>
+        <TD align="center" width="8%" bgcolor="#C0C0C0"><B><font size="1.5">LOS</font></B></TD>
+      </TR>
+      <TR>
+        <TD align="center">
+          <font size="1">656</font>
+        </TD>
+        <TD align="center">
+          <font size="1">57.5</font>
+        </TD>
+        <TD align="center">
+          <font size="1">11.4</font>
+        </TD>
+        <TD align="center">
+          <font size="1">2150</font>
+        </TD>
+        <TD align="center">
+          <font size="1">0.31</font>
+        </TD>
+        <TD align="center">
+          <font size="1">B</font>
+        </TD>
+      </TR>
+    </TABLE>
+    <p></p>
+    <p></p>
+    <p style="page-break-before: always"></p>
+    <TABLE BORDER="0" WIDTH="100%">
+      <tr></tr>
+      <tr>
+        <th width="100%">
+          <p align="center"><b>Service Volumes</b></p>
+        </th>
+      </tr>
+    </TABLE>
+    <p></p>
+    <TABLE width="100%" border="1" align="right">
+      <tr>
+        <td width="20%" align="center">
+          <font size="1"></font>
+        </td>
+        <td width="16%" align="center" bgcolor="H00FFFFC0"><b><font size="1">A</font></b></td>
+        <td width="16%" align="center" bgcolor="H00FFFFC0"><b><font size="1">B</font></b></td>
+        <td width="16%" align="center" bgcolor="H00FFFFC0"><b><font size="1">C</font></b></td>
+        <td width="16%" align="center" bgcolor="H00FFFFC0"><b><font size="1">D</font></b></td>
+        <td width="16%" align="center" bgcolor="H00FFFFC0"><b><font size="1">E</font></b></td>
+      </tr>
+      <tr>
+        <td width="20%" align="center" colspan="1" bgcolor="#FFFF00"><b><font size="1">Lanes</font></b></td>
+        <td width="80%" align="center" colspan="7" bgcolor="#9999FF"><b><font size="1">Hourly Volume In Peak Direction</font></b></td>
+      </tr>
+      <tr>
+        <td width="20%" align="center">
+          <font size="1">1</font>
+        </td>
+        <td width="16%" align="center">
+          <font size="1">500</font>
+        </td>
+        <td width="16%" align="center">
+          <font size="1">820</font>
+        </td>
+        <td width="16%" align="center">
+          <font size="1">1180</font>
+        </td>
+        <td width="16%" align="center">
+          <font size="1">1510</font>
+        </td>
+        <td width="16%" align="center">
+          <font size="1">1830</font>
+        </td>
+      </tr>
+      <tr>
+        <td width="20%" align="center">
+          <font size="1">2</font>
+        </td>
+        <td width="16%" align="center">
+          <font size="1">1010</font>
+        </td>
+        <td width="16%" align="center">
+          <font size="1">1650</font>
+        </td>
+        <td width="16%" align="center">
+          <font size="1">2360</font>
+        </td>
+        <td width="16%" align="center">
+          <font size="1">3030</font>
+        </td>
+        <td width="16%" align="center">
+          <font size="1">3660</font>
+        </td>
+      </tr>
+      <tr>
+        <td width="20%" align="center">
+          <font size="1">3</font>
+        </td>
+        <td width="16%" align="center">
+          <font size="1">1510</font>
+        </td>
+        <td width="16%" align="center">
+          <font size="1">2470</font>
+        </td>
+        <td width="16%" align="center">
+          <font size="1">3540</font>
+        </td>
+        <td width="16%" align="center">
+          <font size="1">4540</font>
+        </td>
+        <td width="16%" align="center">
+          <font size="1">5490</font>
+        </td>
+      </tr>
+      <tr>
+        <td width="20%" align="center">
+          <font size="1">4</font>
+        </td>
+        <td width="16%" align="center">
+          <font size="1">2740</font>
+        </td>
+        <td width="16%" align="center">
+          <font size="1">4480</font>
+        </td>
+        <td width="16%" align="center">
+          <font size="1">6170</font>
+        </td>
+        <td width="16%" align="center">
+          <font size="1">7510</font>
+        </td>
+        <td width="16%" align="center">
+          <font size="1">8530</font>
+        </td>
+      </tr>
+      <tr>
+        <td width="20%" align="center">
+          <font size="1">5</font>
+        </td>
+        <td width="16%" align="center">
+          <font size="1">3420</font>
+        </td>
+        <td width="16%" align="center">
+          <font size="1">5600</font>
+        </td>
+        <td width="16%" align="center">
+          <font size="1">7710</font>
+        </td>
+        <td width="16%" align="center">
+          <font size="1">9390</font>
+        </td>
+        <td width="16%" align="center">
+          <font size="1">10660</font>
+        </td>
+      </tr>
+      <tr>
+        <td width="20%" align="center" colspan="1" bgcolor="#FFFF00"><b><font size="1">Lanes</font></b></td>
+        <td width="80%" align="center" colspan="7" bgcolor="#9999FF"><b><font size="1">Hourly Volume In Both Directions [D = 0.5]</font></b></td>
+      </tr>
+      <tr>
+        <td width="20%" align="center">
+          <font size="1">2</font>
+        </td>
+        <td width="16%" align="center">
+          <font size="1">1010</font>
+        </td>
+        <td width="16%" align="center">
+          <font size="1">1650</font>
+        </td>
+        <td width="16%" align="center">
+          <font size="1">2360</font>
+        </td>
+        <td width="16%" align="center">
+          <font size="1">3030</font>
+        </td>
+        <td width="16%" align="center">
+          <font size="1">3660</font>
+        </td>
+      </tr>
+      <tr>
+        <td width="20%" align="center">
+          <font size="1">4</font>
+        </td>
+        <td width="16%" align="center">
+          <font size="1">2020</font>
+        </td>
+        <td width="16%" align="center">
+          <font size="1">3300</font>
+        </td>
+        <td width="16%" align="center">
+          <font size="1">4720</font>
+        </td>
+        <td width="16%" align="center">
+          <font size="1">6060</font>
+        </td>
+        <td width="16%" align="center">
+          <font size="1">7320</font>
+        </td>
+      </tr>
+      <tr>
+        <td width="20%" align="center">
+          <font size="1">6</font>
+        </td>
+        <td width="16%" align="center">
+          <font size="1">3020</font>
+        </td>
+        <td width="16%" align="center">
+          <font size="1">4940</font>
+        </td>
+        <td width="16%" align="center">
+          <font size="1">7080</font>
+        </td>
+        <td width="16%" align="center">
+          <font size="1">9080</font>
+        </td>
+        <td width="16%" align="center">
+          <font size="1">10980</font>
+        </td>
+      </tr>
+      <tr>
+        <td width="20%" align="center">
+          <font size="1">8</font>
+        </td>
+        <td width="16%" align="center">
+          <font size="1">5480</font>
+        </td>
+        <td width="16%" align="center">
+          <font size="1">8960</font>
+        </td>
+        <td width="16%" align="center">
+          <font size="1">12340</font>
+        </td>
+        <td width="16%" align="center">
+          <font size="1">15020</font>
+        </td>
+        <td width="16%" align="center">
+          <font size="1">17070</font>
+        </td>
+      </tr>
+      <tr>
+        <td width="20%" align="center">
+          <font size="1">10</font>
+        </td>
+        <td width="16%" align="center">
+          <font size="1">6850</font>
+        </td>
+        <td width="16%" align="center">
+          <font size="1">11200</font>
+        </td>
+        <td width="16%" align="center">
+          <font size="1">15420</font>
+        </td>
+        <td width="16%" align="center">
+          <font size="1">18780</font>
+        </td>
+        <td width="16%" align="center">
+          <font size="1">21330</font>
+        </td>
+      </tr>
+      <tr>
+        <td width="20%" align="center" colspan="1" bgcolor="#FFFF00"><b><font size="1">Lanes</font></b></td>
+        <td width="80%" align="center" colspan="7" bgcolor="#9999FF"><b><font size="1">Annual Average Daily Traffic [K = 0.1]</font></b></td>
+      </tr>
+      <tr>
+        <td width="20%" align="center">
+          <font size="1">2</font>
+        </td>
+        <td width="16%" align="center">
+          <font size="1">10100</font>
+        </td>
+        <td width="16%" align="center">
+          <font size="1">16500</font>
+        </td>
+        <td width="16%" align="center">
+          <font size="1">23600</font>
+        </td>
+        <td width="16%" align="center">
+          <font size="1">30300</font>
+        </td>
+        <td width="16%" align="center">
+          <font size="1">36600</font>
+        </td>
+      </tr>
+      <tr>
+        <td width="20%" align="center">
+          <font size="1">4</font>
+        </td>
+        <td width="16%" align="center">
+          <font size="1">20200</font>
+        </td>
+        <td width="16%" align="center">
+          <font size="1">33000</font>
+        </td>
+        <td width="16%" align="center">
+          <font size="1">47200</font>
+        </td>
+        <td width="16%" align="center">
+          <font size="1">60600</font>
+        </td>
+        <td width="16%" align="center">
+          <font size="1">73200</font>
+        </td>
+      </tr>
+      <tr>
+        <td width="20%" align="center">
+          <font size="1">6</font>
+        </td>
+        <td width="16%" align="center">
+          <font size="1">30200</font>
+        </td>
+        <td width="16%" align="center">
+          <font size="1">49400</font>
+        </td>
+        <td width="16%" align="center">
+          <font size="1">70800</font>
+        </td>
+        <td width="16%" align="center">
+          <font size="1">90800</font>
+        </td>
+        <td width="16%" align="center">
+          <font size="1">109800</font>
+        </td>
+      </tr>
+      <tr>
+        <td width="20%" align="center">
+          <font size="1">8</font>
+        </td>
+        <td width="16%" align="center">
+          <font size="1">54800</font>
+        </td>
+        <td width="16%" align="center">
+          <font size="1">89600</font>
+        </td>
+        <td width="16%" align="center">
+          <font size="1">123400</font>
+        </td>
+        <td width="16%" align="center">
+          <font size="1">150200</font>
+        </td>
+        <td width="16%" align="center">
+          <font size="1">170700</font>
+        </td>
+      </tr>
+      <tr>
+        <td width="20%" align="center">
+          <font size="1">10</font>
+        </td>
+        <td width="16%" align="center">
+          <font size="1">68500</font>
+        </td>
+        <td width="16%" align="center">
+          <font size="1">112000</font>
+        </td>
+        <td width="16%" align="center">
+          <font size="1">154200</font>
+        </td>
+        <td width="16%" align="center">
+          <font size="1">187800</font>
+        </td>
+        <td width="16%" align="center">
+          <font size="1">213300</font>
+        </td>
+      </tr>
+      <tr>
+        <td width="20%" align="center" colspan="1" bgcolor="#33CC00"><b><font size="1"></font></b></td>
+        <td width="80%" align="center" colspan="7" bgcolor="#33CC00"><b><font size="1">Notes</font></b></td>
+      </tr>
+      <tr>
+        <td width="20%" align="center">
+          <font size="1">--</font>
+        </td>
+        <td width="80%" align="left" colspan="6">
+          <font size="1">Not applicable for this facility type.</font>
+        </td>
+      </tr>
+      <tr>
+        <td width="20%" align="center">
+          <font size="1">*</font>
+        </td>
+        <td width="80%" align="left" colspan="6">
+          <font size="1">Cannot be achieved based on input data provided.</font>
+        </td>
+      </tr>
+      <tr>
+        <td width="20%" align="center">
+          <font size="1">**</font>
+        </td>
+        <td width="80%" align="left" colspan="6">
+          <font size="1">No defined LOS threshold for this LOS level.</font>
+        </td>
+      </tr>
+      <tr>
+        <td width="20%" align="center">
+          <font size="1">***</font>
+        </td>
+        <td width="80%" align="left" colspan="6">
+          <font size="1">Service volume the same as for previous LOS level.</font>
+        </td>
+      </tr>
+    </TABLE>
+  </BODY>
+</HTML>

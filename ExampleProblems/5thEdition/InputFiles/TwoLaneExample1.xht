@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<HCM-CALC Facility="Two-Lane Highway Segment">
+  <PROJECT>
+    <AnalysisModule>HighwayTwoLane</AnalysisModule>
+    <AnalysisMode>HCM2010</AnalysisMode>
+    <ModuleVersionDate>11/25/2016</ModuleVersionDate>
+    <FileName>TwoLaneExample1.xht</FileName>
+    <Analyst />
+    <Date>8/22/2017 7:29:13 PM</Date>
+    <Agency />
+    <Comment />
+    <FacilityName />
+    <FacilityStart />
+    <FacilityEnd />
+    <AnalysisDirection />
+    <Location />
+    <To />
+    <From />
+    <AnalysisPeriod>PM Peak</AnalysisPeriod>
+  </PROJECT>
+  <Mainline>
+    <HighwayClass>1</HighwayClass>
+    <NumberOfLanes_Thru>3</NumberOfLanes_Thru>
+    <Dfactor>0.5</Dfactor>
+    <Kfactor>0.1</Kfactor>
+    <DemandVeh_dir>800</DemandVeh_dir>
+    <DemandVeh_opp>800</DemandVeh_opp>
+    <PeakHourFactor>0.950</PeakHourFactor>
+    <DriverPopulationFactor>1.000</DriverPopulationFactor>
+    <InterchangeDensity>0.00</InterchangeDensity>
+    <Terrain>Rolling</Terrain>
+    <PctGrade>N/A</PctGrade>
+    <SegLength>N/A</SegLength>
+    <GradeAdj_PTSF_dir>1.00</GradeAdj_PTSF_dir>
+    <GradeAdj_PTSF_opp>1.00</GradeAdj_PTSF_opp>
+    <GradeAdj_ATS_dir>0.99</GradeAdj_ATS_dir>
+    <GradeAdj_ATS_opp>0.99</GradeAdj_ATS_opp>
+    <TruckPCE_PTSF_dir>1.00</TruckPCE_PTSF_dir>
+    <RvPCE_PTSF_dir>1.00</RvPCE_PTSF_dir>
+    <HeavyVehicleFactor_PTFS_dir>1.000</HeavyVehicleFactor_PTFS_dir>
+    <TruckPCE_PTSF_opp>1.00</TruckPCE_PTSF_opp>
+    <RvPCE_PTSF_opp>1.00</RvPCE_PTSF_opp>
+    <HeavyVehicleFactor_PTFS_opp>1.000</HeavyVehicleFactor_PTFS_opp>
+    <TruckPCE_ATS_dir>1.40</TruckPCE_ATS_dir>
+    <RvPCE_ATS_dir>1.10</RvPCE_ATS_dir>
+    <HeavyVehicleFactor_ATS_dir>0.943</HeavyVehicleFactor_ATS_dir>
+    <TruckPCE_ATS_opp>1.40</TruckPCE_ATS_opp>
+    <RvPCE_ATS_opp>1.10</RvPCE_ATS_opp>
+    <HeavyVehicleFactor_ATS_opp>0.943</HeavyVehicleFactor_ATS_opp>
+    <PctTrucks>14.0</PctTrucks>
+    <PctRVs>4.0</PctRVs>
+    <TruckPCE>0.00</TruckPCE>
+    <RvPCE>0.00</RvPCE>
+    <HeavyVehicleFactor>0.000</HeavyVehicleFactor>
+    <FreeFlowSpeedMethod>Estimated</FreeFlowSpeedMethod>
+    <FFS_Estimation_Parameters>
+      <BaseFFS>55</BaseFFS>
+      <LaneWidth>11</LaneWidth>
+      <ShoulderWidth>4</ShoulderWidth>
+      <AccessPointDensity>20</AccessPointDensity>
+      <LaneShoulderWidthAdjValue>0.0</LaneShoulderWidthAdjValue>
+      <AccessDensityAdjValue>5.0</AccessDensityAdjValue>
+    </FFS_Estimation_Parameters>
+    <FreeFlowSpeed>53.3</FreeFlowSpeed>
+    <PostedSpeed>0</PostedSpeed>
+    <NoPassingZonePct>50</NoPassingZonePct>
+    <PassingLaneYN>No</PassingLaneYN>
+  </Mainline>
+  <Results>
+    <AnalysisFlowRate_PTSF_dir>842</AnalysisFlowRate_PTSF_dir>
+    <AnalysisFlowRate_PTSF_opp>842</AnalysisFlowRate_PTSF_opp>
+    <AnalysisFlowRate_ATS_dir>902</AnalysisFlowRate_ATS_dir>
+    <AnalysisFlowRate_ATS_opp>902</AnalysisFlowRate_ATS_opp>
+    <Capacity_PTSF>1700</Capacity_PTSF>
+    <Capacity_ATS>1625</Capacity_ATS>
+    <CoeffA_PTSF>-0.0046</CoeffA_PTSF>
+    <CoeffB_PTSF>0.8322</CoeffB_PTSF>
+    <fnp_PTSF>21.02</fnp_PTSF>
+    <fnp_ATS>0.75</fnp_ATS>
+    <VCRatio>0.55</VCRatio>
+    <PTSF>81.8</PTSF>
+    <Density>N/A</Density>
+    <AvgTravelSpeed>38.6</AvgTravelSpeed>
+    <PFFS>72.3</PFFS>
+    <LOS>E</LOS>
+    <ServiceMeasure>PTSF</ServiceMeasure>
+  </Results>
+  <LOSTABLES Mode="Auto">
+    <CROSSSECTION Lanes="2">
+      <SERVICEVOL LOS="1">
+        <PeakDirection>*</PeakDirection>
+        <BothDirections>*</BothDirections>
+        <AADT>**</AADT>
+      </SERVICEVOL>
+      <SERVICEVOL LOS="2">
+        <PeakDirection>50</PeakDirection>
+        <BothDirections>100</BothDirections>
+        <AADT>1000</AADT>
+      </SERVICEVOL>
+      <SERVICEVOL LOS="3">
+        <PeakDirection>280</PeakDirection>
+        <BothDirections>560</BothDirections>
+        <AADT>5600</AADT>
+      </SERVICEVOL>
+      <SERVICEVOL LOS="4">
+        <PeakDirection>730</PeakDirection>
+        <BothDirections>1460</BothDirections>
+        <AADT>14600</AADT>
+      </SERVICEVOL>
+      <SERVICEVOL LOS="5">
+        <PeakDirection>1620</PeakDirection>
+        <BothDirections>3240</BothDirections>
+        <AADT>32400</AADT>
+      </SERVICEVOL>
+    </CROSSSECTION>
+  </LOSTABLES>
+</HCM-CALC>
