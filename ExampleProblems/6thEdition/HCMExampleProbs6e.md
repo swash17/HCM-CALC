@@ -5,7 +5,7 @@
 #### Basic Freeway Segments, Chapter 26
 
 | Problem | Page | Description | HCM-CALC Input File | HCM-CALC Report File |
-|  :---: | :---: | -------- | -------- |
+| :-----: | :---:| ----------- | ------------------- | ---------------------|
 | 1 | 22 | Four-Lane Freeway LOS | [Chapter 26-1.xfb](InputFiles\Chapter%2026-1.xfb) | [Chapter 26-1.html](ReportFiles\Chapter%2026-1.html) |
 | 2 | 25 | Number of Lanes Required for Target | [Chapter 26-2.xfb](InputFiles\Chapter%2026-2.xfb) | [Chapter 26-2.html](ReportFiles\Chapter%2026-2.html) |
 | 3 | 27 | Six-Lane Freeway LOS and Capacity (Before) | [Chapter 26-3before.xfb](InputFiles\Chapter%2026-3before.xfb)| [Chapter 26-3before.html](ReportFiles\Chapter%2026-3before.html) |
