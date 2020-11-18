@@ -1,4 +1,4 @@
-<span style="color:blue">HCM Example Problems as Calculated with HCM-CALC</span>
+# HCM Example Problems as Calculated with HCM-CALC
 ------------------------------------------------
 
 ### HCM 6th Edition
