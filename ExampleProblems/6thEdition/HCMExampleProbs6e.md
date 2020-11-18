@@ -1,10 +1,8 @@
 # HCM Example Problems as Calculated with HCM-CALC
-------------------------------------------------
 
 ### HCM 6th Edition
 
-#### <span style="color:purple">Basic Freeway Segments, Chapter 26</span>
-
+#### Basic Freeway Segments, Chapter 26
 
 | Problem | Page | Description | HCM-CALC Input File | HCM-CALC Report File |
 |  :---: | :---: | -------- | -------- |
@@ -56,7 +54,3 @@
 | 3 | 9 | One-Lane On-Ramp Followed by a One-Lane Off-Ramp on an Eight-Lane Freeway, Off-Ramp | [OffRamp-Example3.xfr](InputFiles\OffRamp-Example3.xfr) | [OffRamp-Example3.html](ReportFiles\OffRamp-Example3.html) |
 | 4 | 14 | Single-Lane, Left-Hand On-Ramp on a Six-Lane Freeway | [OnRamp-Example4.xfr](InputFiles\OnRamp-Example4.xfr) | [OnRamp-Example4.html](ReportFiles\OnRamp-Example4.html) |
 | 5 | 17 | Service Flow Rates and Service Volumes for an Isolated On-Ramp on a Six-Lane Freeway  | [OnRamp-Example5.xfr](InputFiles\OnRamp-Example5.xfr) | [OnRamp-Example5.html](ReportFiles\OnRamp-Example5.html) |
-
-
-
-
